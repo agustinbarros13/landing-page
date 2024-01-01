@@ -1,0 +1,55 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #9ad79b;
+}
+header {
+  border: 2px solid white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+main {
+  margin-top: 20%;
+}
+.content {
+  border: 2px solid white;
+  margin-top: 10px;
+}
+.sidebar {
+  border: 2px solid white;
+}
+.sidebarcontent {
+  width: 130px;
+  height: 150px;
+  border: 1px solid rgb(243, 242, 242);
+  margin-left: 75%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+.features {
+  border: 2px solid white;
+  text-align: center;
+  height: 100%;
+}
+footer {
+  border: 2px solid white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
